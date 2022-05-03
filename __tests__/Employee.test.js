@@ -28,6 +28,6 @@ test('gets employee role', () => {
     expectStr(employee.getRole(), employee.role);
 });
 
-test('generates the icon', () => {
+test('gets employee icon', () => {
     expectStr(employee.getIcon(), employee.icon);
 });
