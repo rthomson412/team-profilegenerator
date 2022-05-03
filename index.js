@@ -138,3 +138,20 @@ const promptUser = (employeeData) => {
     });
 };
 
+const writePage = (htmlContent) => {
+    fs.writeFile('./dist/index.html', htmlContent, err => {
+        if (err) {
+            throw err
+        };
+        console.log('Team profile - page generated successfully!');
+    });
+};
+
+console.log(`
+Create a profile of your team: to start, add your team members...
+`);
+
+promptUser()
+    .then(data => generatePage(data))
+    .then(generatedHtml => writePage(generatedHtml))
+    .catch(err => console.log(err));
