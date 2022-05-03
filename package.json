@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,13 @@
   "dependencies": {
     "inquirer": "^8.2.4",
     "jest": "^28.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rthomson412/team-profilegenerator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rthomson412/team-profilegenerator/issues"
+  },
+  "homepage": "https://github.com/rthomson412/team-profilegenerator#readme"
 }
