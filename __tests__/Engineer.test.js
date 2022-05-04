@@ -9,7 +9,7 @@ test('creates an engineer object', () => {
     expectNum(engineer.id);
     expectStr(engineer.email, '@');
     expectToBe(engineer.role, 'Engineer');
-    expectToBe(engineer.icon, 'fa-thin fa-person-drowning');
+    expectToBe(engineer.icon, 'fas fa-skiing');
 });
 
 test('gets first and last name', () => {

@@ -9,7 +9,7 @@ test('creates a employee object', () => {
     expectNum(employee.id);
     expectStr(employee.email, '@');
     expectToBe(employee.role, 'Employee');
-    expectToBe(employee.icon, 'fa-thin fa-person-ski-jumping');
+    expectToBe(employee.icon, 'fas fa-street-view');
 });
 
 test('gets first and last name', () => {

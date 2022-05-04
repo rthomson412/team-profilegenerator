@@ -33,14 +33,12 @@ const addEmployee = employeeInfo => {
         //Concatenate strings for all employees
         allCards += `
 <div class="column is-one-quarter-desktop">
+${newEmployee.getIcon()}
     <div class="card">
         <div class="card-content">
             <div class="media">
-                <div class="media-left">
-                    ${newEmployee.getIcon()}
-                </div>
-                <div class="media-content">
-                    <p class="title is-4">${newEmployee.getName()}</p>
+                <div class="media-content message is-warning">
+                    <p class="title is-4 message-header">${newEmployee.getName()}</p>
                     <p class="subtitle is-6">${newEmployee.getRole()}</p>
                 </div>
             </div>
@@ -68,6 +66,7 @@ const generatePage = templateData => {
         <title>Team Profile</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <section class="hero is-success is-bold">
@@ -79,7 +78,7 @@ const generatePage = templateData => {
         </section>
         <main class="m-6">
             <div class="columns is-flex is-flex-wrap-wrap is-flex-direction-row is-justify-content-center">
-                ${addEmployee(templateData)}
+             ${addEmployee(templateData)}
             </div>
         </main>
     </body>

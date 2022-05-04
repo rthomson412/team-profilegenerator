@@ -10,7 +10,7 @@ test('creates a manager object', () => {
     expectStr(manager.email, '@');
     expectToBe(manager.role, 'Manager');
     expectNum(manager.officeNumber);
-    expectToBe(manager.icon, 'fa-light fa-people-group');
+    expectToBe(manager.icon, 'fas fa-users');
 });
 
 test('gets first and last name', () => {
