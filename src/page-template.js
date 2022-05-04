@@ -2,7 +2,7 @@ const Employee = require('../lib/Employee');
 const Manager = require('../lib/Manager');
 const Engineer = require('../lib/Engineer');
 const Intern = require('../lib/Intern');
-const formatName = require('../utils/helper');
+const formatName = require('../utils/format.js');
 
 
 const addEmployee = employeeInfo => {
@@ -77,8 +77,8 @@ const generatePage = templateData => {
                 </div>
             </div>
         </section>
-        <main class="columns">
-            <div class="column is-one-quarter">
+        <main class="m-6">
+            <div class="columns is-flex is-flex-wrap-wrap is-flex-direction-row is-justify-content-center">
                 ${addEmployee(templateData)}
             </div>
         </main>
