@@ -12,7 +12,6 @@ A simple Node.js application to generate a team profile with options to add diff
 * [Usage](#Usage)
 * [Screenshots](#Screenshots)
 * [Tests](#Tests)
-* [Questions](#Questions)
 
 ## Installation
 To use this application, please install: 
@@ -24,13 +23,12 @@ Clone the repo and use the command line terminal to install 'npm inquirer'. Then
 Follow the prompts to add team members. When finished an HTML will be generated in the `./dist` folder. 
     
 ### Screenshots
+The app as seen in the command line.
 ![App Screenshot](./screenshots/ScreenshotApp.jpg)
-
+The generated html webpage.
 ![Page Screenshot](./screenshots/ScreenshotDeployed.jpg)
-An example of the generated team roster page.
-
+Tests passing using Jest package.
 ![Test Screenshot](./screenshots/ScreenshotTests.jpg)
-An example of the generated team roster page.
 
 ## Tests
 To test this application, please install: 
