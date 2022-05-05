@@ -2,9 +2,10 @@
 # Team Profile Generator
 
 ### Video Demo
+https://drive.google.com/file/d/1yMyaLFQHpeaIrwcoUfb6xLfn-QTHgmtz/view
 
 ## Description
-A simple Node.js application to generate a simple profile of a teams manager, interns and engineers.
+A simple Node.js application to generate a team profile with options to add different roles.
 
 ## Contents
 * [Video Demo](#Video-Demo)
